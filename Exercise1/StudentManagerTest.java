@@ -1,4 +1,4 @@
-package srp;
+package Exercise1;
 
 
 public class StudentManagerTest {

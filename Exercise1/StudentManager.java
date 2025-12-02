@@ -1,8 +1,8 @@
-package srp;
+package Exercise1;
 
-import srp.EmailService;
-import srp.StudentRepository;
-import srp.StudentValidator;  
+import Exercise1.EmailService;
+import Exercise1.StudentRepository;
+import Exercise1.StudentValidator;  
 
 public class StudentManager {
     private StudentValidator validator;
