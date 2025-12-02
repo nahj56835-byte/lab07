@@ -1,3 +1,9 @@
+package srp;
+
+import srp.EmailService;
+import srp.StudentRepository;
+import srp.StudentValidator;  
+
 public class StudentManager {
     private StudentValidator validator;
     private StudentRepository repo; 
@@ -11,6 +17,7 @@ public class StudentManager {
     // 1. validate data
     if(!validator.isValid(name, email)) {
         System.out.println("Invalid student data.");
+        return;
     }
     
     // 2. save to "database"
